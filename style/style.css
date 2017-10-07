@@ -1,3 +1,8 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+
 body{
     background-color: RGB(130, 77, 203);
 }
@@ -6,12 +11,27 @@ body{
     display: block;
     margin: 0 auto;
     margin-bottom: 50px;
+
+}
+
+#header{
+    margin-top: 100px;
+}
+
+
+#container {
+    width: 100%;
+    position: relative;
+    height: auto !important;
+    min-height: 100%;
+    text-align: center;
 }
 
 #main{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 
 .textBox{
@@ -24,4 +44,66 @@ body{
     border-radius: 10px;
     color: gray;
     margin-bottom: 20px;
+}
+
+
+.submitButton {
+    font-size: 1.4em;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 50px;
+    position: relative;
+    z-index: 2;
+    background-color: RGB(237, 165, 66);
+    border: 2px solid white;
+    color: #fff;
+    line-height: 50px;
+  }
+  .submitButton:hover {
+    background-color: #fff;
+    border-color: #59b1eb;
+    color: #59b1eb;
+  }
+  .submitButton::before,
+  .submitButton::after {
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #333;
+  }
+  .submitButton::before {
+    right: 0;
+  }
+  .submitButton::after {
+    left: 0;
+  }
+  .submitButton:hover::before,
+  .submitButton:hover::after {
+    width: 0;
+    background-color: #59b1eb;
+  }
+  
+  .submitButton,
+  .submitButton::before,
+  .submitButton::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+
+#footer{
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+#footer p{
+    line-height: 0.5ex;
+    font-size: 13px;
 }

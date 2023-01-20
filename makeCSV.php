@@ -20,7 +20,7 @@
 
 		$date = date("Y-m-d H:i:s");
 
-		$fileName = "SratchAccountCSV.csv";
+		$fileName = "ScratchAccountCSV.csv";
 		$file = fopen($fileName, "w");
 		
 		

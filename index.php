@@ -10,8 +10,8 @@
 	<!--OGPsettings-->
 	<meta property="og:title" content="CSV generator for Scratch Account">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="http://kirie.me/apps/scratch-csv">
-    <meta property="og:image" content="http://kirie.me/apps/scratch-csv/images/ogp.png">
+    <meta property="og:url" content="https://inpw.jp/app/scratch-csv">
+    <meta property="og:image" content="https://inpw.jp/app/scratch-csv/images/ogp.png">
     <meta property="og:site_name"  content="CSV generator for Scratch Account">
     <meta property="og:description" content="Create csv file for create new scratch student account.">
     
@@ -45,10 +45,8 @@
 			<p>This project is created by Kirie Miyajima.</p>
 			<p>Source is available on <a href="https://github.com/mjk0513/csvGenerator4ScratchAccount" class="textLink">GitHub</a>.</p>
 		
-			<a href="http://kirie.me/"><i class="fa fa-user fa-3x faa-spin animated-hover"></i></a>
-			<a href="https://facebook.com/kiriemiyajima"><i class="fa fa-facebook-square fa-3x faa-spin animated-hover"></i></a> 
-			<a href="https://twitter.com/mjk_0513"><i class="fa fa-twitter-square fa-3x faa-spin animated-hover"></i></a> 
-			<a href="https://github.com/mjk0513"><i class="fa fa-github fa-3x faa-spin animated-hover"></i></a>
+			<a href="https://twitter.com/kiriem_"><i class="fa fa-twitter-square fa-3x faa-spin animated-hover"></i></a> 
+			<a href="https://github.com/kiriem/csvGenerator4ScratchAccount"><i class="fa fa-github fa-3x faa-spin animated-hover"></i></a>
 
 		</div>
 
